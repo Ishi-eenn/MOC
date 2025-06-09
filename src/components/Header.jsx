@@ -14,7 +14,7 @@ function Header({ title }) {
             <Form.Control type="search" placeholder="顧客名、案件名で検索..." />
           </InputGroup>
         </Form> */}
-        <Nav className="ms-3 align-items-center">
+        <Nav className="ms-auto d-flex ms-3 align-items-center">
           <NavDropdown title="田中太郎" id="user-dropdown" align="end">
             <NavDropdown.Item>ログアウト</NavDropdown.Item>
           </NavDropdown>
