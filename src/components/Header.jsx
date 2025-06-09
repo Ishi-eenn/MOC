@@ -9,11 +9,11 @@ function Header({ title }) {
       <Navbar.Brand className="fw-bold">{title}</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Form className="ms-auto d-flex">
+        {/* <Form className="ms-auto d-flex">
           <InputGroup>
             <Form.Control type="search" placeholder="顧客名、案件名で検索..." />
           </InputGroup>
-        </Form>
+        </Form> */}
         <Nav className="ms-3 align-items-center">
           <NavDropdown title="田中太郎" id="user-dropdown" align="end">
             <NavDropdown.Item>ログアウト</NavDropdown.Item>
